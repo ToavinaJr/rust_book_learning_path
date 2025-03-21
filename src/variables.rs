@@ -12,6 +12,10 @@ pub fn test () {
 
     // u(n) in [0; 2^n - 1] 
     let x : u8 = 255;
-
     println!("x = {}", x);
+
+    // i(n) in [-2^(n-1); 2^(n-1) - 1]
+    let mut i : i8 = -128;
+    i = i - 1;
+    println!("i = {}", i);
 }
